@@ -3,10 +3,11 @@ function minDate(dates) {
 	if (dates.length === 0) return null;
 	let ans = dates[0];
 	for(let x of dates){
-		if(dates[i] < ans)
-			ans = dates[i];
+		if(x < ans)
+			ans = x;
 	}
 	return ans;
+	
 }
 
 // Do not change the code
